@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NewsAPI App</title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet"> 
+    <link rel='stylesheet' href='css/reset.css' />
+    <link rel='stylesheet' href='css/style.css' />
+    
+</head>
+
+<body>
+    <header>
+        <h1>NewsAPI App</h1>
+        <p>Choose media:</p>
+        <select id="news">
+            <option disabled selected hidden>Media Sources</option>
+            <option value="alj">Al Jazeera English</option>
+            <option value="ap">Associated Press</option>
+            <option value="bbc">BBC News</option>
+            <option value="cnn">CNN</option>
+            <option value="reuters">Reuters</option>
+        </select>
+    </header>
+
+    <div id='output'></div>
+    <p class="scrollbtn"><a class="top" href="#">Go to top</a></p>
+
+	<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+    <script src='js/newsapi.js'></script>
+</body>
+
+</html>
